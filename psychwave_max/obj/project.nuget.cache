@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "nTxRXtT4fiU=",
+  "success": true,
+  "projectFilePath": "/home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/psychwave_max.csproj",
+  "expectedPackageFiles": [
+    "/home/max/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
+    "/home/max/.nuget/packages/microsoft.extensions.dependencymodel/9.0.9/microsoft.extensions.dependencymodel.9.0.9.nupkg.sha512",
+    "/home/max/.nuget/packages/silk.net.core/2.23.0/silk.net.core.2.23.0.nupkg.sha512",
+    "/home/max/.nuget/packages/silk.net.opencl/2.23.0/silk.net.opencl.2.23.0.nupkg.sha512"
+  ],
+  "logs": []
+}
