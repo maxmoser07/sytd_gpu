@@ -126,7 +126,7 @@ __kernel void GenerateWaves(__global float* output, const int width, const int h
             cl.ReleaseContext(context);
             return;
         }
-        Console.WriteLine("🛠️ OpenCL Kernel compiled successfully on the GPU!");
+        Console.WriteLine("OpenCL Kernel compiled successfully on the GPU!");
 
         // 9. Extract Kernel
         nint kernel = cl.CreateKernel(program, "GenerateWaves", &errorCode);
@@ -138,7 +138,7 @@ __kernel void GenerateWaves(__global float* output, const int width, const int h
             cl.ReleaseContext(context);
             return;
         }
-        Console.WriteLine("🔮 Kernel 'GenerateWaves' is ready for dispatch.");
+        Console.WriteLine("Kernel 'GenerateWaves' is ready for dispatch.");
 
         // 10. Dimensions and Buffers
         int width = 800;
@@ -194,7 +194,7 @@ __kernel void GenerateWaves(__global float* output, const int width, const int h
                 commandQueue, deviceBuffer, true, (nuint)0, bufferSize, (void*)pHostOutput, 0, (nint*)null, (nint*)null
             );
         }
-        Console.WriteLine("🎉 GPU calculation complete! Data successfully read back to CPU.");
+        Console.WriteLine("GPU calculation complete! Data successfully read back to CPU.");
 
         // 15. Export to a 24-bit BMP image without any third-party dependencies!
         string outputPath = "psychedelic_wave.bmp";
@@ -253,6 +253,6 @@ __kernel void GenerateWaves(__global float* output, const int width, const int h
         }
 
         File.WriteAllBytes(path, bmpBytes);
-        Console.WriteLine($"💾 Beautiful visual pattern saved to: {Path.GetFullPath(path)}");
+        Console.WriteLine($"visual pattern saved to: {Path.GetFullPath(path)}");
     }
 }

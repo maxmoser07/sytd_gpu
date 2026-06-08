@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("psychwave_max")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdbdcb046701ea6f89f735ecab81d25ef3eb6970")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14b5a87e4bb82bdfc3abc7f712690989e710c37c")]
 [assembly: System.Reflection.AssemblyProductAttribute("psychwave_max")]
 [assembly: System.Reflection.AssemblyTitleAttribute("psychwave_max")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
