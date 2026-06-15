@@ -37,8 +37,8 @@ class Program
         int errorCode = 0;
         context = cl.CreateContext(null, 1, devices, null, null, &errorCode);
         commandQueue = cl.CreateCommandQueue(context, devices[0], CommandQueueProperties.None, &errorCode);
-
-        string kernelSource = @"
+        //shader in C
+        string kernelSource = @" 
 __kernel void GenerateWaves(__global float* output, const int width, const int height, float time,
                             float zoom, float speed, float distortion, int complexity) {
     int x = get_global_id(0);
@@ -71,8 +71,7 @@ __kernel void GenerateWaves(__global float* output, const int width, const int h
         // --- 2. Spin up the Web Server Application ---
         var builder = WebApplication.CreateBuilder(args);
         var app = builder.Build();
-
-        // Appending '; charset=utf-8' forces browsers to correctly render the emojis!
+        
         app.MapGet("/", () => Results.Content(GetHtmlFrontend(), "text/html; charset=utf-8"));
 
         // Point the route directly to our clean, dedicated static method
@@ -192,7 +191,7 @@ __kernel void GenerateWaves(__global float* output, const int width, const int h
 </head>
 <body>
     <div class='controls'>
-        <h2>🎛️ Wave Controls</h2>
+        <h2>Wave Controls</h2>
         <div class='control-group'>
             <label>Time Shift: <span id='v_time'>2.5</span></label>
             <input type='range' id='time' min='0' max='20' step='0.1' value='2.5'>
@@ -203,13 +202,13 @@ __kernel void GenerateWaves(__global float* output, const int width, const int h
             <label>Math Complexity: <span id='v_complexity'>5</span></label>
             <input type='range' id='complexity' min='1' max='8' step='1' value='5'>
         </div>
-        <h2>🎨 Color Palette Phases</h2>
+        <h2>Color Palette Phases</h2>
         <div class='control-group'>
             <label>Red Phase: <span id='v_rPh'>0.0</span></label><input type='range' id='rPh' min='0' max='1' step='0.05' value='0'>
             <label>Green Phase: <span id='v_gPh'>0.33</span></label><input type='range' id='gPh' min='0' max='1' step='0.05' value='0.33'>
             <label>Blue Phase: <span id='v_bPh'>0.67</span></label><input type='range' id='bPh' min='0' max='1' step='0.05' value='0.67'>
         </div>
-        <h2>🌈 Color Frequencies</h2>
+        <h2>Color Frequencies</h2>
         <div class='control-group'>
             <label>Red Frequency: <span id='v_rFr'>1.0</span></label><input type='range' id='rFr' min='0' max='3' step='0.1' value='1'>
             <label>Green Frequency: <span id='v_gFr'>1.0</span></label><input type='range' id='gFr' min='0' max='3' step='0.1' value='1'>
