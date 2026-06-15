@@ -19,3 +19,15 @@
 /home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/obj/Debug/net10.0/psychwave_max.pdb
 /home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/obj/Debug/net10.0/psychwave_max.genruntimeconfig.cache
 /home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/obj/Debug/net10.0/ref/psychwave_max.dll
+/home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/bin/Debug/net10.0/psychwave_max.staticwebassets.endpoints.json
+/home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/obj/Debug/net10.0/rpswa.dswa.cache.json
+/home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/obj/Debug/net10.0/psychwave_max.MvcApplicationPartsAssemblyInfo.cache
+/home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/obj/Debug/net10.0/rjimswa.dswa.cache.json
+/home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+/home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+/home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/obj/Debug/net10.0/scopedcss/bundle/psychwave_max.styles.css
+/home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/obj/Debug/net10.0/staticwebassets.build.json
+/home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/obj/Debug/net10.0/staticwebassets.build.json.cache
+/home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/obj/Debug/net10.0/staticwebassets.development.json
+/home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+/home/max/School/sytd/Uebungen/sytd_gpu/psychwave_max/obj/Debug/net10.0/swae.build.ex.cache

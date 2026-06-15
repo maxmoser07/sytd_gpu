@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "psychwave_max/1.0.0": {
         "dependencies": {
-          "Silk.NET.OpenCL": "2.23.0"
+          "Silk.NET.OpenCL": "2.22.0"
         },
         "runtime": {
           "psychwave_max.dll": {}
@@ -22,34 +22,34 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyModel/9.0.9": {
+      "Microsoft.Extensions.DependencyModel/8.0.0": {
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.DependencyModel.dll": {
-            "assemblyVersion": "9.0.0.9",
-            "fileVersion": "9.0.925.41916"
+          "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
           }
         }
       },
-      "Silk.NET.Core/2.23.0": {
+      "Silk.NET.Core/2.22.0": {
         "dependencies": {
           "Microsoft.DotNet.PlatformAbstractions": "3.1.6",
-          "Microsoft.Extensions.DependencyModel": "9.0.9"
+          "Microsoft.Extensions.DependencyModel": "8.0.0"
         },
         "runtime": {
           "lib/net6.0/Silk.NET.Core.dll": {
-            "assemblyVersion": "2.23.0.0",
-            "fileVersion": "2.23.0.0"
+            "assemblyVersion": "2.22.0.0",
+            "fileVersion": "2.22.0.0"
           }
         }
       },
-      "Silk.NET.OpenCL/2.23.0": {
+      "Silk.NET.OpenCL/2.22.0": {
         "dependencies": {
-          "Silk.NET.Core": "2.23.0"
+          "Silk.NET.Core": "2.22.0"
         },
         "runtime": {
           "lib/net5.0/Silk.NET.OpenCL.dll": {
-            "assemblyVersion": "2.23.0.0",
-            "fileVersion": "2.23.0.0"
+            "assemblyVersion": "2.22.0.0",
+            "fileVersion": "2.22.0.0"
           }
         }
       }
@@ -68,26 +68,26 @@
       "path": "microsoft.dotnet.platformabstractions/3.1.6",
       "hashPath": "microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyModel/9.0.9": {
+    "Microsoft.Extensions.DependencyModel/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fNGvKct2De8ghm0Bpfq0iWthtzIWabgOTi+gJhNOPhNJIowXNEUE2eZNW/zNCzrHVA3PXg2yZ+3cWZndC2IqYA==",
-      "path": "microsoft.extensions.dependencymodel/9.0.9",
-      "hashPath": "microsoft.extensions.dependencymodel.9.0.9.nupkg.sha512"
+      "sha512": "sha512-NSmDw3K0ozNDgShSIpsZcbFIzBX4w28nDag+TfaQujkXGazBm+lid5onlWoCBy4VsLxqnnKjEBbGSJVWJMf43g==",
+      "path": "microsoft.extensions.dependencymodel/8.0.0",
+      "hashPath": "microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512"
     },
-    "Silk.NET.Core/2.23.0": {
+    "Silk.NET.Core/2.22.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-D7AT/nnwlB+4RZ84XY8QNGBZMJI5z9l4CSSETIJ1wCfRJzRt/341y3MRZ4HbnFz4r/IGaWOEZr86iE+0/65yyQ==",
-      "path": "silk.net.core/2.23.0",
-      "hashPath": "silk.net.core.2.23.0.nupkg.sha512"
+      "sha512": "sha512-XbDilPmvsQIrvxZkeVCNNX3LyRtA3hN6UykAiyZjlu/JkYh68U3WQummpP+j7jsxlX8s/pOrrU3vbN8LnMl0VA==",
+      "path": "silk.net.core/2.22.0",
+      "hashPath": "silk.net.core.2.22.0.nupkg.sha512"
     },
-    "Silk.NET.OpenCL/2.23.0": {
+    "Silk.NET.OpenCL/2.22.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oIU+yXYmtQRlwr1kV+a6xV7N6mfQTQ2ecwcllIBBY9nQy5ejEH+tia7AkJNVbsoPeVbGHdaSBClumUNJoLIPuQ==",
-      "path": "silk.net.opencl/2.23.0",
-      "hashPath": "silk.net.opencl.2.23.0.nupkg.sha512"
+      "sha512": "sha512-nnjMo8kYNjjYmqTNHHt8g1RdJz/vikLQETC4RKDlPHi75bhZoOd566sL35TGMcaYHf4ZHCzONDOsXTFk+5yxUg==",
+      "path": "silk.net.opencl/2.22.0",
+      "hashPath": "silk.net.opencl.2.22.0.nupkg.sha512"
     }
   }
 }
